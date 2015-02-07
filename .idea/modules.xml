@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OLA-Apathon.iml" filepath="$PROJECT_DIR$/OLA-Apathon.iml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <module fileurl="file://$PROJECT_DIR$/OlaApathone.iml" filepath="$PROJECT_DIR$/OlaApathone.iml" />
 >>>>>>> dolly
+=======
+      <module fileurl="file://$PROJECT_DIR$/OlaApathone.iml" filepath="$PROJECT_DIR$/OlaApathone.iml" />
+>>>>>>> sneha
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
