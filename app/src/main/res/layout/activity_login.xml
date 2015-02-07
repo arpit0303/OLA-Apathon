@@ -31,9 +31,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pwd_login"
         android:text="Login"
-        android:id="@+id/login1"/>
+        android:id="@+id/login1"
+        android:layout_below="@+id/mob_login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
     <Button
         android:id="@+id/sgnbttn"
         android:layout_width="wrap_content"

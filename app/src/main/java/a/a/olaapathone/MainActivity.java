@@ -1,14 +1,11 @@
 package a.a.olaapathone;
 
-<<<<<<< HEAD
+import android.support.v7.app.ActionBarActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
-=======
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
->>>>>>> dolly
+
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -19,7 +16,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
 
         final Handler handler = new Handler();
 
@@ -27,16 +23,14 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 MainActivity.this.startActivity(intent);
                 MainActivity.this.finish();
 
             }
-        },2000);
-=======
->>>>>>> dolly
+        }, 2000);
     }
 
 
