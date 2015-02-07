@@ -2,12 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="a.a.olaapathone" >
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
+=======
+    <application
+        android:allowBackup="true"
+
+>>>>>>> dolly
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -19,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
@@ -27,6 +34,8 @@
             android:name=".SignupActivity"
             android:label="@string/title_activity_signup" >
         </activity>
+=======
+>>>>>>> dolly
     </application>
 
 </manifest>

@@ -1,9 +1,14 @@
 package a.a.olaapathone;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
+=======
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+>>>>>>> dolly
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -14,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 
         final Handler handler = new Handler();
 
@@ -29,6 +35,8 @@ public class MainActivity extends ActionBarActivity {
 
             }
         },2000);
+=======
+>>>>>>> dolly
     }
 
 
